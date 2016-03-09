@@ -1,0 +1,15 @@
+{
+  "name": "qust-used-flux",
+  "version": "1.0.0",
+  "description": "a small crawler",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EvanMu96",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "superagent": "^1.8.0-beta.2"
+  }
+}
