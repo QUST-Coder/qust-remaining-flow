@@ -8,6 +8,6 @@
 + superagent <https://github.com/visionmedia/superagent>
 + cheerio <https://github.com/cheeriojs/cheerio>
 ##使用方法
-  `npm install`
+  `$ npm install`
 
-  `node app.js`
+  `$ node app.js`
