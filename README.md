@@ -1,8 +1,8 @@
 # qust-remaining-flow
-一个爬取自己剩余qust流量的爬虫文件
+青岛科技大学使用的校园网解决方案是dr.com,然而dr.com的流量查询需要去原来自动弹出的页面，于是写了这么一个爬取剩余流量的爬虫让查询剩余校园网流量变得cool一些。
 
 ##运行环境
-需要安装Node
++ Node <https://nodejs.org/en/>
   
 ##依赖
 + superagent <https://github.com/visionmedia/superagent>
