@@ -1,7 +1,7 @@
 var superagent = require('superagent');
 var cheerio = require('cheerio');
 
-superagent.get('172.16.10.3')
+superagent.get('http://dr.com')
     .end(function (err, sres) {
         var $ = cheerio.load(sres.text);
         var used_flux = $("script").text();
