@@ -9,5 +9,8 @@ superagent.get('http://172.16.10.3')
               var end = start + 7;
               used_flux = parseInt(used_flux.slice(start, end))/1024;
               remaining = parseInt(1024 * 8 -used_flux);
+              if (remaining == NaN) {
+                  console.log("ERROR,please check your network environment");
+              }
               console.log(remaining + ' Mb');
     });
